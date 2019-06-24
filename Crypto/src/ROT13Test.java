@@ -63,6 +63,8 @@ public class ROT13Test {
         String actual = cipher.encrypt(Q1);
         System.out.println(Q1);
         System.out.println(A1);
+
+
         // Then
         assertTrue(actual.equals(A1));
 
